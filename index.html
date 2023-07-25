@@ -26,7 +26,41 @@
 
 <body>
     <header>
-
+        <nav class="md:m-10">
+            <div class="hidden md:block">
+                <div class="lg:bg-[#F85559] rounded-full w-3/4 justify-between mx-auto flex  items-center px-9 py-4 md:bg-white md:flex-col-reverse md:gap-3 lg:flex-row">
+                    <div class="list-none flex gap-7">
+                        <li class="text-white font-light text-sm md:text-black">Home</li>
+                        <li class="text-white font-light text-sm md:text-black">About Us</li>
+                        <li class="text-white font-light text-sm md:text-black">Shop</li>
+                        <li class="text-white font-light text-sm md:text-black">All Fruits</li>
+                    </div>
+                    <div class="flex items-center justify-center gap-2">
+                        <img src="B8A3-fruit-brust/images/logo.png" alt="">
+                        <h3 class="text-white text-xl md:text-2xl lg:text-4xl md:font-bold lg:font-black md:text-black">Fruit Burst</h3>
+                    </div>
+                    <div class="relative lg:block md:hidden">
+                        <input type="text" placeholder="Search here" class="rounded-full px-3 py-2">
+                        <button class="absolute top-2 right-4"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- only 4 mobile -->
+            <div class="md:hidden sm:block">
+                <div class="navbar bg-base-100">
+                    <div class="flex-1">
+                        <img src="B8A3-fruit-brust/images/logo.png" alt="" class="w-9">
+                      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                    </div>
+                    <div class="flex-none">
+                      <button class="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                      </button>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <!-- ami sai rat 2 ta thaka ai nav bar banano suru korsi akhon 5:06 ta baja exactly ai matro sas holo mona hoi na rata gum hoba -->
     </header>
     <main>
 
@@ -62,7 +96,7 @@
         </div>
         <!-- logo title(extra)  -->
         <div class="flex justify-center mb-4 md:mb-6 lg:mb-10">
-            <h3 class="text-white text-xl md:text-2xl lg:text-4xl md:font-bold lg:font-black">Follow us on:</h3>
+            <h3 class="text-white text-xl md:text-2xl md:font-bold lg:font-black">Follow us on:</h3>
         </div>
         <!-- footer logo div -->
         <div class="flex justify-center gap-3 md:gap-6 lg:gap-14">
